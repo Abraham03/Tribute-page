@@ -1,3 +1,50 @@
+
+*{
+    margin: 0%;
+    padding: 0%;    
+}
+
+html,
+body {
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+    background-color: coral;
+}
+
 .main{
     background-color: rgb(40, 173, 173);
+
+}
+
+.img-div{
+    background-color: white;
+    padding: 2em;
+    margin: 3em;
+}
+
+.image{
+    display: block;
+    margin: auto auto;
+    width: 90%;
+    height: 90%; 
+}
+
+.img-caption{
+    text-align: center;
+}
+
+.title{
+    color: white;
+    text-align: center
+}
+
+ul {
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    list-style: none;
+}
+
+li {
+    margin: 10px;
 }
